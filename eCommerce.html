@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="eCommerce.css">
+    <script src="https://kit.fontawesome.com/3fe3d746fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+    <link rel="shortcut icon" href="./img/icons8-font-awesome-flag-32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-cbb357.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <div id="left1"><a href=""><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt=""></a></div>
+        <div id="main">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#maleSection">Mens</a></li>
+                <li><a href="#femaleSection">Women</a></li>
+                <li><a href="#">Kids</a></li>
+            </ul>
+        </div>
+        <div id="right1"><a href="./login.html"><button>Login</button></a><a href="./SignUp.html"><button>Sign up</button></a></div>
+    </nav>
+    <section id="popUp">
+        <div id="static">
+            <h3 id="x">X</h3>
+            <h2>Cart-Items</h2>
+            <hr />
+        </div>
+        <div id="dynamic">
+        </div>
+        <div id="footer">
+            <h2 id="gt">Grand Total: Rs. <span>0</span></h2>
+            <button>Make Payment</button>
+        </div>
+    </section>
+    <main>
+        <h1>Men's</h1>
+        <Section id="maleSection">
+            <div class="design" id="maleCont">
+            </div>
+        </Section>
+        <h1>Women's</h1>
+        <Section id="femaleSection">
+            <div class="design" id="femaleCont">
+            </div>
+        </Section>
+        <Section id="KidsSection">
+            <div class="design" id="kidsCont">
+            </div>
+        </Section>
+    </main>
+    
+    <script src="./eCommerce.js"></script>
+</body>
+</html>

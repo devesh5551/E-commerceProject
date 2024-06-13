@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 183, 118);
+}
+main{
+    margin: 50px 35% 20px 35%;
+    /* min-width: 400px; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 30%;
+    background-color: white;
+    font-family: var(font-family)
+    
+}
+main>form{
+    margin: auto;
+    /* height: 80vh; */
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+    /* justify-content: space-between;
+     */
+}
+main>form>input{
+    display: flex;
+    width: 80%;
+    margin: 10%;
+}
+main>form>i{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+main>form{
+    margin: 5%;
+    
+    /* justify-content: space-between; */
+    
+}
+main>form>#welcome{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fab005;
+    height: 40px;
+}
+
+main>form>#smile{
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#smile>img{
+    height: 70px;
+    margin: 10px;
+}
+main>form>h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+main>form>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 10px;
+}
+
+main>form>label{
+    margin: 20px 0px 5px 8%;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+}
+ 
+#checkbox{
+    margin: 5px 5%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+#checkbox>div{
+    display: flex;
+    justify-content: left;
+    margin-right: 15%;
+}
+#checkbox>div>a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+}
+#email, #password{
+    display: flex;
+    position: relative;
+    width: 85%;
+    margin:10px  0px 20px 8%;
+    height: 30px;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+#email>input, #password>input{
+    display: flex;
+    padding: 5px 20%;
+    margin: 10px 0px;
+    height: 35px;
+    width: 100%;
+    border: 1px  solid  black;
+    border-radius: 10px;
+    /* border-radius: 10px; */
+}
+#email>i, #password>i{
+    display: flex;
+    position: absolute;
+    left: 8%;
+}
+
+#checkbox>a{
+    display: flex;
+    justify-content: end;
+}
+main>form>button{
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin: 10%;
+    width: 80%;
+    background-color: #fab005;
+}
+main>form>button>i{
+    margin: 10px;
+    font-size: large;
+}
+body>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+form span{
+    color: red;
+    display: block;
+}
+#succ{
+    position: absolute;
+    color: green;
+    background-color: red;
+    top: -6%;
+    right: -17%;
+    width: 50%;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    background-color:rgba(0,0,0,0.8);
+}
+#succ>button{
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+@media (max-width:600px) {
+    body{
+        margin: 0;
+        padding: 30% auto;
+        width: 100%;
+        background-color: rgb(218, 183, 118);
+    }
+    body>main{
+        margin: 0 auto; 
+        margin-top: 5rem;
+        /* margin-right: 20%; */
+        /* width: 400px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* align-items: center; */
+        width: 90%;
+        background-color: white;
+        font-family: var(font-family)
+        
+    }
+    main>form{
+        margin: 2px solid black;
+        /* height: 80vh; */
+        font-weight: bold;
+        margin: auto;
+        width: 100%;
+        position: relative;
+        /* justify-content: space-between;
+         */
+    }
+}
