@@ -10,32 +10,13 @@ body{
 }
 main{
     height: 100vh;
-    width: 85%;
+    width: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border: none;
     border-radius: 50px;
     background-color: red;
-}
-main>#left{
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    width: 49%;
-    height: 100vh;
-    background: #ffe4b2;
-    border: none;
-}
-main>#left>img{
-    border-bottom-left-radius:50%;
-    border-top-left-radius: 50%;
-    border: 5px solid red;
-    width: 100%;
-     height: 93vh;
-     margin-top: 3.5vh;
-    /* margin: auto; */
-    margin-left: 3rem;
-    
 }
 
 main>#right{
